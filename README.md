@@ -1,17 +1,122 @@
-# noorva_app
+# Noorva AI Flutter App 🚀
 
-A new Flutter project.
+A modern AI assistant mobile application built with Flutter, inspired by a Figma design. This project demonstrates clean architecture, responsive UI, glassmorphism design, and smooth animations.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## ✨ Features
 
-A few resources to get you started if this is your first Flutter project:
+* 🌙 Dark themed modern UI
+* 🧊 Glassmorphism design (blur + transparency)
+* 📱 Fully responsive layout (all screen sizes)
+* 🧩 Reusable widget system
+* 🎯 Clean architecture structure
+* 🎬 Smooth transitions & animations
+* 🤖 AI assistant chat interface
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+---
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 📸 Screens
+
+* Home Screen (AI suggestions + priority card)
+* Chat Screen (assistant interaction UI)
+
+---
+
+## 🏗️ Project Structure
+
+```
+lib/
+│
+├── core/
+│   ├── constants/
+│   ├── theme/
+│   ├── utils/
+│
+├── features/
+│   └── home/
+│       ├── presentation/
+│       │   ├── screens/
+│       │   ├── widgets/
+│
+├── main.dart
+```
+
+---
+
+## 🛠️ Tech Stack
+
+* Flutter (Dart)
+* Material UI
+* Clean Architecture
+* Glassmorphism (BackdropFilter)
+
+---
+
+## 🚀 Getting Started
+
+### 1. Clone the repo
+
+```
+git clone https://github.com/yourusername/noorva-ai-flutter.git
+cd noorva-ai-flutter
+```
+
+### 2. Install dependencies
+
+```
+flutter pub get
+```
+
+### 3. Run the app
+
+```
+flutter run
+```
+
+---
+
+## 📦 Build APK
+
+```
+flutter build apk --release
+```
+
+APK location:
+
+```
+build/app/outputs/flutter-apk/app-release.apk
+```
+
+---
+
+## 🎯 Assignment Requirements Covered
+
+✔ Develop UI from Figma
+✔ Pixel-perfect design
+✔ Responsive layout
+✔ Clean architecture
+✔ Reusable widgets
+✔ Smooth animations
+✔ APK generation
+
+---
+
+## 📌 Future Improvements
+
+* State management (Riverpod / Bloc)
+* API integration
+* Voice assistant support
+* Chat persistence
+
+---
+
+## 👨‍💻 Author
+
+Your Name
+
+---
+
+## ⭐ If you like this project
+
+Give it a star ⭐ on GitHub!
