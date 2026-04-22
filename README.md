@@ -113,7 +113,7 @@ build/app/outputs/flutter-apk/app-release.apk
 
 ## 👨‍💻 Author
 
-Your Name
+Manoj Kumar B
 
 ---
 
